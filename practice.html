@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bus Seat Selection</title>
+  <style>
+    .selected {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Bus Seat Selection</h2>
+<p>Remaining Seats: <span id="remainingSeats">10</span></p>
+<p>Total Price: $<span id="totalPrice">0</span></p>
+
+<div id="seatsContainer">
+  <div class="seat" data-name="Seat 1" data-class="Standard" data-price="10">Seat 1</div>
+  <div class="seat" data-name="Seat 2" data-class="Standard" data-price="10">Seat 2</div>
+  <!-- Add more seats as needed -->
+  <div class="seat" data-name="Seat 1" data-class="Standard" data-price="10">Seat 1</div>
+  <div class="seat" data-name="Seat 2" data-class="Standard" data-price="10">Seat 2</div>
+  <!-- Add more seats as needed -->
+  <div class="seat" data-name="Seat 1" data-class="Standard" data-price="10">Seat 1</div>
+  <div class="seat" data-name="Seat 2" data-class="Standard" data-price="10">Seat 2</div>
+  <!-- Add more seats as needed -->
+  <div class="seat" data-name="Seat 1" data-class="Standard" data-price="10">Seat 1</div>
+  <div class="seat" data-name="Seat 2" data-class="Standard" data-price="10">Seat 2</div>
+  <!-- Add more seats as needed -->
+  <div class="seat" data-name="Seat 1" data-class="Standard" data-price="10">Seat 1</div>
+  <div class="seat" data-name="Seat 2" data-class="Standard" data-price="10">Seat 2</div>
+  <!-- Add more seats as needed -->
+  <!-- Add details for selected seat -->
+  <div id="selectedSeatDetails"></div>
+</div>
+
+<script>
+  let remainingSeats = 10;
+  let totalPrice = 0;
+
+  document.getElementById('seatsContainer').addEventListener('click', function(event) {
+    const seat = event.target;
+    const selectedSeats = document.querySelectorAll('.selected');
+
+    if (seat.classList.contains('seat') && !seat.classList.contains('selected') && selectedSeats.length < 4 && remainingSeats > 0) {
+      // Update selected seat details
+      const seatName = seat.dataset.name;
+      const seatClass = seat.dataset.class;
+      const seatPrice = parseFloat(seat.dataset.price);
+
+      // Add the selected seat to the details
+      document.getElementById('selectedSeatDetails').innerHTML += `
+        <p>${seatName} - ${seatClass} Class ($${seatPrice})</p>
+      `;
+
+      // Update total price
+      totalPrice += seatPrice;
+      document.getElementById('totalPrice').textContent = totalPrice;
+
+      // Decrease remaining seats
+      remainingSeats--;
+      document.getElementById('remainingSeats').textContent = remainingSeats;
+
+      // Mark the seat as selected
+      seat.classList.add('selected');
+    }
+  });
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+<!-- 
+
+<div class="OneSeatPlanning flex justify-between">
+<span class="text-center justify-center items-center">A</span>
+
+<button class="btn seat">A1</button>
+
+<button class="btn seat">A2</button>
+
+<button class="btn seat">A3</button>
+
+<button class="btn seat">A4</button>
+</div>
+
+
+
+
+
+
+<div class="OneSeatPlanning flex justify-between">
+<span class="text-center justify-center items-center">B</span>
+
+<button class="btn seat">B1</button>
+
+<button class="btn seat">B2</button>
+
+<button class="btn seat">B3</button>
+
+<button class="btn seat">B4</button>
+</div>
+
+
+
+
+<div class="OneSeatPlanning flex justify-between">
+<span class="text-center justify-center items-center">C</span>
+
+<button class="btn seat">C1</button>
+
+<button class="btn seat">C2</button>
+
+<button class="btn seat">C3</button>
+
+<button class="btn seat">C4</button>
+</div>
+
+
+
+
+
+<div class="OneSeatPlanning flex justify-between">
+<span class="text-center justify-center items-center">D</span>
+
+<button class="btn seat">D1</button>
+
+<button class="btn seat">D2</button>
+
+<button class="btn seat">D3</button>
+
+<button class="btn seat">D4</button>
+</div>
+
+
+
+
+<div class="OneSeatPlanning flex justify-between">
+<span class="text-center justify-center items-center">E</span>
+
+<button class="btn seat">E1</button>
+
+<button class="btn seat">E2</button>
+
+<button class="btn seat">E3</button>
+
+<button class="btn seat">E4</button>
+</div>
+
+
+
+
+
+<div class="OneSeatPlanning flex justify-between">
+<span class="text-center justify-center items-center">F</span>
+
+<button class="btn seat">F1</button>
+
+<button class="btn seat">F2</button>
+
+<button class="btn seat">F3</button>
+
+<button class="btn seat">F4</button>
+</div>
+
+
+
+
+
+<div class="OneSeatPlanning flex justify-between">
+<span class="text-center justify-center items-center">G</span>
+
+<button class="btn seat">G1</button>
+
+<button class="btn seat">G2</button>
+
+<button class="btn seat">G3</button>
+
+<button class="btn seat">G4</button>
+</div>
+
+
+
+<div class="OneSeatPlanning flex justify-between">
+<span class="text-center justify-center items-center">H</span>
+
+<button class="btn seat">H1</button>
+
+<button class="btn seat">H2</button>
+
+<button class="btn seat">H3</button>
+
+<button class="btn seat">H4</button>
+</div>
+
+
+
+
+<div class="OneSeatPlanning flex justify-between">
+<span class="text-center justify-center items-center">I</span>
+
+<button class="btn seat">I1</button>
+
+<button class="btn seat">I2</button>
+
+<button class="btn seat">I3</button>
+
+<button class="btn seat">I4</button>
+</div>
+
+
+
+<div class="OneSeatPlanning flex justify-between">
+<span class="text-center justify-center items-center">J</span>
+
+<button class="btn seat">J1</button>
+
+<button class="btn seat">J2</button>
+
+<button class="btn seat">J3</button>
+
+<button class="btn ">J4</button>
+</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+<div id="seatsContainer" class="SeatPlanning ">
+                        
+    <div class="flex justify-between">
+        <div class="text-center text-xl mt-3">
+            A
+        </div>
+        <div class="seat" data-name="A1" data-class="Economoy" data-price="550">A1</div>
+
+        <div class="seat btn" data-name="A2" data-class="Economoy" data-price="550">A2</div>
+
+         <div class="seat btn" data-name="A3" data-class="Economoy" data-price="550">A3</div>
+
+        <div class="seat btn" data-name="A4" data-class="Economoy" data-price="550">A4</div>
+
+    </div>
+
+
+
+    <div class="flex justify-between mt-5">
+        <div class="text-center text-xl mt-3">
+            B
+        </div>
+        <div class="seat btn" data-name="B1" data-class="Economoy" data-price="550">B1</div>
+
+        <div class="seat btn" data-name="B2" data-class="Economoy" data-price="550">B2</div>
+
+         <div class="seat btn" data-name="B3" data-class="Economoy" data-price="550">B3</div>
+
+        <div class="seat btn" data-name="B4" data-class="Economoy" data-price="550">B4</div>
+        
+    </div>
+
+
+
+    <div class="flex justify-between mt-5">
+        <div class="text-center text-xl mt-3">
+            C
+        </div>
+        <div class="seat btn" data-name="C1" data-class="Economoy" data-price="550">C1</div>
+
+        <div class="seat btn" data-name="C2" data-class="Economoy" data-price="550">C2</div>
+
+         <div class="seat btn" data-name="C3" data-class="Economoy" data-price="550">C3</div>
+
+        <div class="seat btn" data-name="C4" data-class="Economoy" data-price="550">C4</div>
+        
+    </div>
+
+
+
+
+    <div class="flex justify-between mt-5">
+        <div class="text-center text-xl mt-3">
+            D
+        </div>
+        <div class="seat btn" data-name="D1" data-class="Economoy" data-price="550">D1</div>
+
+        <div class="seat btn" data-name="D2" data-class="Economoy" data-price="550">D2</div>
+
+         <div class="seat btn" data-name="D3" data-class="Economoy" data-price="550">D3</div>
+
+        <div class="seat btn" data-name="D4" data-class="Economoy" data-price="550">D4</div>
+        
+    </div>
+
+
+
+
+
+    <div class="flex justify-between mt-5">
+        <div class="text-center text-xl mt-3">
+            E
+        </div>
+        <div class="seat btn" data-name="E1" data-class="Economoy" data-price="550">E1</div>
+
+        <div class="seat btn" data-name="E2" data-class="Economoy" data-price="550">E2</div>
+
+         <div class="seat btn" data-name="E3" data-class="Economoy" data-price="550">E3</div>
+
+        <div class="seat btn" data-name="E4" data-class="Economoy" data-price="550">E4</div>
+        
+    </div>
+
+
+
+
+
+
+    <div class="flex justify-between mt-5">
+        <div class="text-center text-xl mt-3">
+            F
+        </div>
+        <div class="seat btn" data-name="F1" data-class="Economoy" data-price="550">F1</div>
+
+        <div class="seat btn" data-name="F2" data-class="Economoy" data-price="550">F2</div>
+
+         <div class="seat btn" data-name="F3" data-class="Economoy" data-price="550">F3</div>
+
+        <div class="seat btn" data-name="F4" data-class="Economoy" data-price="550">F4</div>
+        
+    </div>
+
+
+
+
+
+    <div class="flex justify-between mt-5">
+        <div class="text-center text-xl mt-3">
+            G
+        </div>
+        <div class="seat btn" data-name="G1" data-class="Economoy" data-price="550">G1</div>
+
+        <div class="seat btn" data-name="G2" data-class="Economoy" data-price="550">G2</div>
+
+         <div class="seat btn" data-name="G3" data-class="Economoy" data-price="550">G3</div>
+
+        <div class="seat btn" data-name="G4" data-class="Economoy" data-price="550">G4</div>
+        
+    </div>
+
+
+
+
+
+    <div class="flex justify-between mt-5">
+        <div class="text-center text-xl mt-3">
+            H
+        </div>
+        <div class="seat btn" data-name="H1" data-class="Economoy" data-price="550">H1</div>
+
+        <div class="seat btn" data-name="H2" data-class="Economoy" data-price="550">H2</div>
+
+         <div class="seat btn" data-name="H3" data-class="Economoy" data-price="550">H3</div>
+
+        <div class="seat btn" data-name="H4" data-class="Economoy" data-price="550">H4</div>
+        
+    </div>
+
+
+
+
+
+    <div class="flex justify-between mt-5">
+        <div class="text-center text-xl mt-3">
+            I
+        </div>
+        <div class="seat btn" data-name="I1" data-class="Economoy" data-price="550">I1</div>
+
+        <div class="seat btn" data-name="I2" data-class="Economoy" data-price="550">I2</div>
+
+         <div class="seat btn" data-name="I3" data-class="Economoy" data-price="550">I3</div>
+
+        <div class="seat btn" data-name="I4" data-class="Economoy" data-price="550">I4</div>
+        
+    </div>
+
+
+
+
+    <div class="flex justify-between mt-5">
+        <div class="text-center text-xl mt-3">
+            J
+        </div>
+        <div class="seat btn" data-name="J1" data-class="Economoy" data-price="550">J1</div>
+
+        <div class="seat btn" data-name="J2" data-class="Economoy" data-price="550">J2</div>
+
+         <div class="seat btn" data-name="J3" data-class="Economoy" data-price="550">J3</div>
+
+        <div class="seat btn" data-name="J4" data-class="Economoy" data-price="550">J4</div>
+        
+    </div> -->

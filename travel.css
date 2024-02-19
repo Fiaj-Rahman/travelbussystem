@@ -1,0 +1,1417 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.maindiv{
+    max-width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+/* header Section here  */
+
+.headerSection{
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.headerOne h1{
+    color: black;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.headerTwo ul li{
+    font-size: 20px;
+}
+
+
+/* Section One start Here  */
+
+.sectionOne
+{
+    background-image: url('/images/02.jpg');
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+    
+}
+
+
+.firstSectionOne{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.secondSectionOne{
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+
+.thirdSectionOne{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.fourthSectionOne{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.fourthSectionOne button{
+    background-color: red;
+    font-weight: 900;
+}
+
+
+.fifthSectionOne
+{
+    justify-content: space-around;
+    padding-top: 150px;
+    
+}
+
+.fifthSectionOne div{
+   width: 250px;
+   height: 150px;  
+   background-color: whitesmoke;
+   border-radius: 20px;
+}
+
+
+.fifthSectionOne img{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.fifthSectionOne h1{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+
+
+}
+
+.fifthSectionOne span{
+    color: black;
+
+}
+
+
+
+
+/* section Two here  */
+.SectionTwo{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+
+.firstSectionTwo h1{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: black;
+}
+
+.secondSectionTwo {
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+.OnesecondSectionTwo{
+    background-color: orange;
+    width: 40%;
+    height: 150px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.OnesecondSectionTwo h1{
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.OnesecondSectionTwo p{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.OnesecondSectionTwo span{
+    color: black;
+    text-align: center;
+    
+}
+
+
+.thridSectionTwo{
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+/* Section Third  */
+
+
+.SectionThird{
+    width: 100%;
+    height: 2000px;
+    background-color: rgb(230, 228, 228);
+    border: 1px solid red;
+    border-radius: 70px
+}
+
+
+.OneSectionThird {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.TwoSectionThird p{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.ThirdSectionThird{
+    background-color: whitesmoke;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+/* OneThirdSectionThird */
+
+.OneThirdSectionThird{
+    width: 70%;
+    background-color: whitesmoke;
+    height: 400px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.FourthSeatCalculation{
+    border-radius: 10px;
+}
+
+.FourthSeatCalculation span{
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+}
+
+.FourthSeatCalculation img{
+    border-radius: 50%;
+}
+
+.FRparibahan h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+.secondOneThirdSectionThird{
+    width: 100%;
+    background-color: rgb(245, 238, 238);
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+
+.hr-hight{
+    width: 90%;
+    border: 2px;
+    margin: 0 auto;
+}
+
+
+.TwoThirdSectionThird{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+
+.TwoThirdSectionThird img
+{
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.TwoThirdSectionThird h1{
+
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+.TwoThirdSectionThird span{
+    font: 20px;
+    font-weight: 600;
+}
+
+
+/* fourth Section Third  */
+
+/* OneFourthSectionThird */
+
+.OneFourthSectionThird{
+    width: 60%;
+}
+
+.fourthSectionThird{
+    background-color: white;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+
+.selectYourSeat h1{
+    font-size: 25px;
+    color: black;
+}
+
+.availableSeat {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+.driving{
+    margin-top: 30px;
+    flex-direction: row-reverse;
+    margin-bottom: 50px;
+}
+.driving img{
+    width: 30px;
+    border-radius: 50%;
+    
+}
+
+
+/* OneSeatPlanning */
+.OneSeatPlanning{
+    margin-top: 20px;
+    
+
+}
+
+.OneSeatPlanning span{
+    
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+
+/* TwoFourthSectionThird */
+.TwoFourthSectionThird{
+    width: 100%;
+}
+
+.calculationAllPrice
+{
+    background-color: rgb(241, 233, 233);
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+
+.two{
+    border-radius: 20px;
+    padding: 2px 14px;
+}
+
+
+.ClassSeatPrice{
+    margin-bottom: 20px;
+}
+
+
+.CouponText{
+    width: 80%;
+}
+
+.PassengerText{
+    width: 100%;
+    background-color: rgb(223, 219, 219);
+    height: 50px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.NextStep{
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+
+
+/* .........footer Section here  */
+
+
+.footerSection{
+
+    background-color: rgb(11, 11, 24);
+    height: 500px;
+    width: 100%;
+    margin-top: -200px;
+}
+
+
+
+/* one  */
+
+.firstFooterSection
+{
+    padding: 100px;
+}
+
+.footerOne p
+{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.footerOne span{
+    color: whitesmoke;
+    padding-top: 10px;
+    
+    
+}
+
+
+.footerTwo p{
+    font: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footerTwo button{
+    background-color: black;
+    color: white;
+    
+    width: 80%;
+}
+
+.footerTwo span{
+    margin-top: -20px;
+    margin-left: 40px;
+}
+
+
+.secondFooterSection hr{
+    width: 90%;
+    margin: 0 auto;
+    border-top: 3px dotted rgb(248, 248, 248);
+}
+
+
+.thirdFooterSection{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet Responsive  */
+
+@media only screen and (max-width: 1000px) and (min-width: 600px)  
+
+{
+    
+/* header Section here  */
+
+.headerSection{
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.headerOne h1{
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.headerTwo ul li{
+    font-size: 15px;
+}
+
+
+    .fifthSectionOne
+    {
+        justify-content: space-around;
+        padding-top: 150px;
+        flex-direction: column;
+        
+        
+    }
+    
+    .fifthSectionOne div{
+       width: 100%;
+       height: 150px;  
+       background-color: whitesmoke;
+       border-radius: 20px;
+       margin-top: 10px;
+    }
+    
+    
+    .fifthSectionOne img{
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    
+    .fifthSectionOne h1{
+        color: black;
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 40px;
+    
+    
+    }
+    
+    .fifthSectionOne span{
+        color: black;
+    
+    }
+    
+
+    /* section Two here  */
+.SectionTwo{
+    margin-top: 500px;
+}
+
+
+.firstSectionTwo h1{
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: black;
+}
+
+.secondSectionTwo {
+    margin-top: 60px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.OnesecondSectionTwo{
+    background-color: orange;
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.OnesecondSectionTwo h1{
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.OnesecondSectionTwo p{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.OnesecondSectionTwo span{
+    color: black;
+    text-align: center;
+    
+}
+
+
+.thridSectionTwo{
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+
+/* Section Third  */
+
+
+.SectionThird{
+    width: 100%;
+    height: 2700px;
+    background-color: rgb(230, 228, 228);
+    border: 1px solid red;
+    border-radius: 70px
+    
+}
+
+
+.OneSectionThird {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.TwoSectionThird p{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.ThirdSectionThird{
+    background-color: whitesmoke;
+    margin: 50px;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+/* OneThirdSectionThird */
+
+.OneThirdSectionThird{
+    width: 100%;
+    background-color: whitesmoke;
+    height: 400px;
+    padding: 17px;
+    border-radius: 20px;
+}
+
+.broadingPoint{
+    flex-direction: column;
+}
+
+.FourthSeatCalculation{
+    border-radius: 10px;
+}
+
+.FourthSeatCalculation span{
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+}
+
+.FourthSeatCalculation img{
+    border-radius: 50%;
+}
+
+.FRparibahan h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+.secondOneThirdSectionThird{
+    width: 100%;
+    background-color: rgb(245, 238, 238);
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+
+.hr-hight{
+    width: 90%;
+    border: 2px;
+    margin: 0 auto;
+}
+
+
+.TwoThirdSectionThird{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+
+.TwoThirdSectionThird img
+{
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.TwoThirdSectionThird h1{
+
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+.TwoThirdSectionThird span{
+    font: 20px;
+    font-weight: 600;
+}
+
+
+/* OneThirdSectionThird */
+
+.OneThirdSectionThird{
+    width: 70%;
+    background-color: whitesmoke;
+    height: 400px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.FourthSeatCalculation{
+    border-radius: 10px;
+}
+
+.FourthSeatCalculation span{
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+}
+
+.FourthSeatCalculation img{
+    border-radius: 50%;
+}
+
+.FRparibahan h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+.secondOneThirdSectionThird{
+    width: 100%;
+    background-color: rgb(245, 238, 238);
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+
+.hr-hight{
+    width: 90%;
+    border: 2px;
+    margin: 0 auto;
+}
+
+
+.TwoThirdSectionThird{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+
+.TwoThirdSectionThird img
+{
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.TwoThirdSectionThird h1{
+
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+.TwoThirdSectionThird span{
+    font: 20px;
+    font-weight: 600;
+}
+
+
+/* fourth Section Third  */
+
+/* OneFourthSectionThird */
+
+.OneFourthSectionThird{
+    width: 100%;
+}
+
+.fourthSectionThird {
+    background-color: white;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+
+.selectYourSeat h1{
+    font-size: 25px;
+    color: black;
+}
+
+.availableSeat {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+.driving{
+    margin-top: 30px;
+    flex-direction: row-reverse;
+    margin-bottom: 50px;
+}
+.driving img{
+    width: 30px;
+    border-radius: 50%;
+    
+}
+
+
+/* OneSeatPlanning */
+.OneSeatPlanning{
+    margin-top: 20px;
+    
+
+}
+
+.OneSeatPlanning span{
+    
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+
+/* TwoFourthSectionThird */
+.TwoFourthSectionThird{
+    width: 100%;
+}
+
+.calculationAllPrice
+{
+    background-color: rgb(241, 233, 233);
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+
+.two{
+    border-radius: 20px;
+    padding: 2px 14px;
+}
+
+
+.ClassSeatPrice{
+    margin-bottom: 20px;
+}
+
+
+.CouponText{
+    width: 80%;
+}
+
+.PassengerText{
+    width: 100%;
+    background-color: rgb(223, 219, 219);
+    height: 50px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.NextStep{
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+
+
+
+
+/* .........footer Section here  */
+
+
+.footerSection{
+
+    background-color: rgb(11, 11, 24);
+    height: 550px;
+    width: 100%;
+    margin-top: 0px;
+    border-radius: 20px;
+}
+
+
+
+/* one  */
+
+.firstFooterSection
+{
+    padding: 100px;
+    flex-direction: column;
+}
+
+.footerOne p
+{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.footerOne span{
+    color: whitesmoke;
+    padding-top: 10px;
+    
+    
+}
+
+
+.footerTwo p{
+    font: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footerTwo button{
+    background-color: black;
+    color: white;
+    
+    width: 80%;
+}
+
+.footerTwo span{
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+
+.secondFooterSection hr{
+    width: 90%;
+    margin: 0 auto;
+    border-top: 3px dotted rgb(248, 248, 248);
+}
+
+
+.thirdFooterSection{
+    color: white;
+    flex-direction: column;
+    margin: 0 auto;
+    
+}
+
+.onethirdFooterSection p{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* mobile Responsive  */
+
+
+@media screen and (max-width: 600px) 
+{
+  /* header Section here  */
+
+.headerSection{
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.headerOne h1{
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.headerTwo ul li{
+    font-size: 10px;
+}
+
+.headerTwo ul{
+    gap: 10px;
+}
+
+.fifthSectionOne
+{
+    justify-content: space-around;
+    padding-top: 150px;
+    flex-direction: column;
+    
+    
+}
+
+.fifthSectionOne div{
+   width: 100%;
+   height: 150px;  
+   background-color: whitesmoke;
+   border-radius: 20px;
+   margin-top: 10px;
+}
+
+
+.fifthSectionOne img{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.fifthSectionOne h1{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+
+
+}
+
+.fifthSectionOne span{
+    color: black;
+
+}
+
+   /* section Two here  */
+   .SectionTwo{
+    margin-top: 500px;
+}
+
+
+.firstSectionTwo h1{
+    font-size: 40px;
+    font-weight: 800;
+    padding-top: 50px;
+    text-align: center;
+    color: black;
+}
+
+.secondSectionTwo {
+    margin-top: 60px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.OnesecondSectionTwo{
+    background-color: orange;
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.OnesecondSectionTwo h1{
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.OnesecondSectionTwo p{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.OnesecondSectionTwo span{
+    color: black;
+    text-align: center;
+    
+}
+
+
+.thridSectionTwo{
+    margin-top: 60px;
+    text-align: center;
+}
+
+
+.lowers{
+    flex-direction: column;
+}
+
+
+/* Section Third  */
+
+
+.SectionThird{
+    width: 100%;
+    height: 2800px;
+    background-color: rgb(230, 228, 228);
+    border: 1px solid red;
+    border-radius: 70px
+    
+}
+
+
+.OneSectionThird {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.TwoSectionThird p{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+.ThirdSectionThird{
+    background-color: whitesmoke;
+    margin: 50px;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+/* OneThirdSectionThird */
+
+.OneThirdSectionThird{
+    width: 100%;
+    background-color: whitesmoke;
+    height: 400px;
+    padding: 17px;
+    border-radius: 20px;
+}
+
+.broadingPoint{
+    flex-direction: column;
+}
+
+.FourthSeatCalculation{
+    border-radius: 10px;
+}
+
+.FourthSeatCalculation span{
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+}
+
+.FourthSeatCalculation img{
+    border-radius: 50%;
+}
+
+.FRparibahan h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+.secondOneThirdSectionThird{
+    width: 100%;
+    background-color: rgb(245, 238, 238);
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+
+.hr-hight{
+    width: 90%;
+    border: 2px;
+    margin: 0 auto;
+}
+
+
+.TwoThirdSectionThird{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+
+
+.TwoThirdSectionThird img
+{
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.TwoThirdSectionThird h1{
+
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+.TwoThirdSectionThird span{
+    font: 20px;
+    font-weight: 600;
+}
+
+.firstOneThirdSectionThird{
+
+    flex-direction: column;
+}
+
+
+
+
+/* fourth Section Third  */
+
+/* OneFourthSectionThird */
+
+.OneFourthSectionThird{
+    width: 100%;
+}
+
+.fourthSectionThird {
+    background-color: white;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+
+.selectYourSeat h1{
+    font-size: 25px;
+    color: black;
+}
+
+.availableSeat {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.countSeat{
+    margin-left: -38px;
+}
+
+.driving{
+    margin-top: 30px;
+    flex-direction: row-reverse;
+    margin-bottom: 50px;
+}
+.driving img{
+    width: 30px;
+    border-radius: 50%;
+    
+}
+
+
+/* OneSeatPlanning */
+.OneSeatPlanning{
+    margin-top: 20px;
+    
+
+}
+
+.OneSeatPlanning span{
+    
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+
+/* TwoFourthSectionThird */
+.TwoFourthSectionThird{
+    width: 100%;
+}
+
+.calculationAllPrice
+{
+    background-color: rgb(241, 233, 233);
+    width: 100%;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+
+.two{
+    border-radius: 20px;
+    padding: 2px 14px;
+}
+
+
+.ClassSeatPrice{
+    margin-bottom: 20px;
+}
+
+
+.CouponText{
+    width: 80%;
+}
+
+.PassengerText{
+    width: 100%;
+    background-color: rgb(223, 219, 219);
+    height: 50px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.NextStep{
+    width: 100%;
+    margin-top: 30px;
+    
+}
+
+
+
+/* .........footer Section here  */
+
+
+.footerSection{
+
+    background-color: rgb(11, 11, 24);
+    height: 550px;
+    width: 100%;
+    margin-top: -4px;
+    border-radius: 20px;
+}
+
+
+
+/* one  */
+
+.firstFooterSection
+{
+    padding: 100px;
+    flex-direction: column;
+
+}
+
+.footerOne p
+{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.footerOne span{
+    color: whitesmoke;
+    padding-top: 10px;
+    
+    
+}
+
+
+.footerTwo p{
+    font: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footerTwo button{
+    background-color: black;
+    color: white;
+    
+    width: 100%;
+}
+
+.footerTwo span{
+    
+   
+}
+
+
+.secondFooterSection hr{
+    width: 90%;
+    margin: 0 auto;
+    border-top: 3px dotted rgb(248, 248, 248);
+}
+
+
+.thirdFooterSection{
+    color: white;
+    flex-direction: column;
+    margin: 0 auto;
+    
+}
+
+.onethirdFooterSection p{
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

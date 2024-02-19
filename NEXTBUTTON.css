@@ -1,0 +1,200 @@
+.maindiv{
+    max-width: 1300px;
+    
+    margin: 0 auto;
+    background-color: rgb(235, 226, 226);
+    padding: 100px;
+}
+
+.maindivOne{
+    width: 60%;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    
+}
+
+.maindivOne img{
+    margin: 0 auto;
+}
+
+
+.maindivOne h1{
+    color: green;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.maindivOne p{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.maindivOne span{
+    /* color: black; */
+    font-size: 16px;
+    
+    margin-bottom: 10px;
+}
+
+.maindivOne button{
+    background-color: brown;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) 
+{
+    .maindiv{
+        max-width: 600px;
+        
+        margin: 0 auto;
+        background-color: rgb(235, 226, 226);
+        padding: 50px;
+    }
+    
+
+
+    .maindivOne{
+        width: 80%;
+        height: 500px;
+        margin: 0 auto;
+        border-radius: 30px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        
+    }
+    
+    .maindivOne img{
+        
+       margin: 0 auto;
+    }
+    
+    
+    .maindivOne h1{
+        color: green;
+        font-size: 30px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    
+    .maindivOne p{
+        color: black;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    
+    .maindivOne span{
+        /* color: black; */
+        font-size: 16px;
+        
+        margin-bottom: 10px;
+    }
+    
+    .maindivOne button{
+        background-color: brown;
+        color: white;
+        padding: 10px 30px;
+        border-radius: 30px;
+        text-align: center;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    
+    
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) and (min-width: 600px)  
+{
+
+    .maindivOne{
+        width: 80%;
+        height: 500px;
+        margin: 0 auto;
+        border-radius: 30px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+        
+    }
+    
+    .maindivOne img{
+        
+        margin: 0 auto;
+    }
+    
+    
+    .maindivOne h1{
+        color: green;
+        font-size: 30px;
+        margin-bottom: 20px;
+        font-weight: bold;
+    }
+    
+    .maindivOne p{
+        color: black;
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    
+    .maindivOne span{
+        /* color: black; */
+        font-size: 16px;
+        
+        margin-bottom: 10px;
+    }
+    
+    .maindivOne button{
+        background-color: brown;
+        color: white;
+        padding: 10px 30px;
+        border-radius: 30px;
+        text-align: center;
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    
+    
+}
+
+
+
